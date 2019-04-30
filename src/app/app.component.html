@@ -1,21 +1,39 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="navbar">
+  <img width="200" class="brand" alt="Angular Logo" src="data:image/svg+xml,%3C!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In --%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='241.74px' height='55px' viewBox='0 0 241.74 55' style='enable-background:new 0 0 241.74 55;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfilter:url(%23Adobe_OpacityMaskFilter);%7D .st1%7Bfill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;%7D .st2%7Bmask:url(%23b_1_);fill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;%7D .st3%7Bfilter:url(%23Adobe_OpacityMaskFilter_1_);%7D .st4%7Bmask:url(%23b_5_);fill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;%7D %3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cg%3E%3Cdefs%3E%3Cfilter id='Adobe_OpacityMaskFilter' filterUnits='userSpaceOnUse' x='0' y='0' width='241.74' height='55'%3E%3CfeColorMatrix type='matrix' values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0'/%3E%3C/filter%3E%3C/defs%3E%3Cmask maskUnits='userSpaceOnUse' x='0' y='0' width='241.74' height='55' id='b_1_'%3E%3Cg class='st0'%3E%3Cpath id='a_1_' class='st1' d='M0,66.67h241.74V0H0V66.67z'/%3E%3C/g%3E%3C/mask%3E%3Cpath class='st2' d='M98.88,42.58h4.76V15.83h-4.76V42.58z M111.71,15.83v26.75h4.76V23.26c0,0,3.19-3.3,8.8-3.3v-4.73 c-4.29,0-7.84,3.15-9.04,4.65v-4.05L111.71,15.83L111.71,15.83z M103.33,5.99c-0.55-0.55-1.23-0.83-2.04-0.83 c-0.8,0-1.48,0.28-2.04,0.83c-0.55,0.55-0.83,1.21-0.83,1.98c0,0.74,0.28,1.38,0.83,1.93c0.55,0.55,1.23,0.83,2.04,0.83 c0.8,0,1.48-0.28,2.04-0.83c0.56-0.55,0.83-1.19,0.83-1.93C104.16,7.2,103.88,6.54,103.33,5.99 M89.67,19.12 c-2.34-2.43-5.12-3.66-8.34-3.66c-1.89,0-3.6,0.39-5.11,1.17c-1.51,0.78-2.64,1.76-3.38,2.92h-0.67l0.47-3.72h-4.67V55h4.87V42.17 l-0.2-3.32h0.2c0.75,1.17,1.87,2.14,3.38,2.93c1.51,0.78,3.21,1.17,5.11,1.17c3.22,0,6-1.22,8.34-3.66 c2.34-2.44,3.51-6.68,3.51-10.29C93.18,25.39,92.01,21.55,89.67,19.12 M80.71,38.75c-4.33,0-8.31-3.2-8.31-9.55 c0-6.35,3.98-9.55,8.31-9.55c4.34,0,7.85,3.2,7.85,9.55C88.56,35.55,85.05,38.75,80.71,38.75 M21.99,30.34h7.26l5.37,12.29 l5.24,0.01L20.3,0h-0.74L0,42.64l5.24-0.01l5.37-12.29h7.26v-4.13H12.4l7.53-16.38l7.53,16.38h-5.47V30.34z M52.15,39.39 c-3.48,0-6.56-1.83-8.06-3.64l-0.31-0.37l-2.41,3.56l0.18,0.19c2.61,2.83,6.14,4.27,10.5,4.27c3.17,0,5.81-0.83,7.63-2.42 c1.7-1.47,2.64-3.57,2.64-5.9c0-6.14-5.43-7.5-9.8-8.58c-3.16-0.79-5.89-1.47-5.89-3.66c0-2.25,2.16-3.81,5.26-3.81 c2.96,0,5.68,1.2,7.27,3.2l0.31,0.39l2.25-3.48l-0.18-0.19c-1.68-1.8-4.72-3.94-9.65-3.94c-2.95,0-5.44,0.8-7.2,2.33 c-1.65,1.42-2.55,3.41-2.55,5.61c0,5.67,4.97,6.93,9.35,8.04c3.4,0.86,6.34,1.6,6.34,4.2C57.83,37.78,55.65,39.39,52.15,39.39 M175.6,42.6h4.76V15.83h-4.76V42.6z M200.02,15.26c-7.74,0-14.01,5.43-14.01,13.91c0,8.48,6.27,13.91,14.01,13.91 c7.74,0,14.01-5.43,14.01-13.91C214.03,20.69,207.76,15.26,200.02,15.26 M206.64,36.43c-1.67,1.85-3.87,2.77-6.59,2.77 c-2.76,0-4.98-0.92-6.65-2.77c-1.68-1.85-2.51-4.27-2.51-7.28c0-3,0.84-5.42,2.51-7.28c1.67-1.85,3.89-2.78,6.66-2.78 c2.72,0,4.91,0.93,6.59,2.78c1.67,1.85,2.51,4.27,2.51,7.28C209.15,32.16,208.32,34.58,206.64,36.43 M219.48,15.3v27.23h4.69V26.48 c0-1.99,0.61-3.74,1.84-5.25c1.22-1.51,2.94-2.27,4.88-2.27c4.11,0,6.16,2.26,6.16,6.77v16.8h4.69V25.04 c0-3.12-0.81-5.61-2.45-7.47c-1.63-1.86-3.99-2.79-7.08-2.79c-1.67,0-3.23,0.41-4.69,1.22c-1.46,0.81-2.67,1.8-3.35,2.96h-0.2V15.3 H219.48L219.48,15.3z M180.02,6.01c-0.55-0.55-1.22-0.82-2.01-0.82c-0.8,0-1.46,0.27-2.01,0.82c-0.55,0.54-0.82,1.2-0.82,1.96 c0,0.73,0.27,1.36,0.82,1.91c0.55,0.54,1.22,0.82,2.01,0.82c0.79,0,1.46-0.27,2.01-0.82c0.55-0.55,0.82-1.18,0.82-1.91 C180.84,7.21,180.57,6.56,180.02,6.01 M157.08,10.05v25.37c0,2.66,0.6,4.61,1.81,5.82c1.2,1.22,2.95,1.83,5.24,1.83 c0.68,0,1.36-0.04,2.02-0.12c0.72-0.09,1.43-0.2,2.14-0.35l-0.48-3.84c-0.44,0.08-0.81,0.26-1.11,0.28 c-0.3,0.02-0.63,0.03-0.99,0.03c-1.32,0-2.32-0.25-2.98-0.75c-0.66-0.5-0.99-1.31-0.99-2.43V19.77h7.33v-3.94h-7.33v-5.78 L157.08,10.05L157.08,10.05z M150.3,21.84c-0.52-1.55-1.35-2.83-2.33-3.74c-6.39-5.85-15.66-1.45-15.96-1.32v4.29 c0,0,8.86-3.99,12.95,0.04c1.28,1.26,1.73,3.66,1.67,5.46l-0.09,0.03c-0.02-0.01-0.04-0.03-0.07-0.04 c-1.95-1.06-4.42-1.58-7.44-1.58c-3.43,0-6.31,0.82-8.64,2.47c-2.34,1.64-3.5,3.91-3.5,6.79c0,2.68,0.99,4.83,2.97,6.45 c1.98,1.62,4.43,2.44,7.37,2.44c7.58,0,9.77-6.99,9.82-6.99l-0.28,3.97v2.46h4.33V28.6C151.09,26.24,151.06,24.1,150.3,21.84 M145.79,32.67c-0.49,1.56-1.44,3.05-2.7,4.24c-2.22,2.09-5.38,3.19-8.47,1.84c-3.21-1.4-4.32-5.17-2.03-7.65 c3.1-3.36,9.89-2.89,13.66-1.1C146.51,30.12,145.87,32.4,145.79,32.67'/%3E%3C/g%3E%3C/svg%3E">
+  <div class="nav">
+    <nav class="nav-menu">
+      <a href="#">Products</a>
+      <a href="#">Who We Are</a>
+      <a href="#">Fees</a>
+      <a href="#">Giving</a>
+      <a href="#">Education</a>
+    </nav>
+    <a href="#" class="get-started-button button button--filled">Get Started</a>
+    <a href="#" class="sign-in-button button button--ghost button--ghost--light">Sign In</a>
+    <button class="hamburger"></button>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+<div class="hero">
+  <h1 class="title">Save Money,<br>Save The Planet</h1>
+  <p>Reward Businesses With a Conscience, Save Money While Doing it.</p>
+  <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In  -->
+  <div class="hero__svg">
+     
+  </div>
+  <div class="hero__button-group">
+    <a href="#" class="button button--filled">Get Started</a>
+    <a href="#" class="view-perks button button--ghost button--ghost--light">View Perks</a>
+  </div>
+  <div class="featured-on">
+    <h3>Featured On</h3>
+    <img src="https://assets.aspiration.com/images/homepage/v2/CNN@2x.png" alt="">
+    <img src="https://assets.aspiration.com/images/homepage/v2/Money@2x.png" alt="">
+    <img src="https://assets.aspiration.com/images/homepage/v2/NYT@2x.png" alt="">
+    <img src="https://assets.aspiration.com/images/homepage/v2/Forbes@2x.png" alt="">
+  </div>
+</div>
+
 
 <router-outlet></router-outlet>
